@@ -148,6 +148,10 @@ Section Cross References
     .\_build\main.o(i.check_nv_update_request) refers to .\_build\zonas_cardiacas.o(i.load_user_info_metrics) for load_user_info_metrics
     .\_build\main.o(i.check_nv_update_request) refers to .\_build\main.o(.data) for .data
     .\_build\main.o(i.check_nv_update_request) refers to .\_build\main.o(.bss) for .bss
+    .\_build\main.o(i.combina_valor) refers to .\_build\nrf_log_frontend.o(i.nrf_log_frontend_std_1) for nrf_log_frontend_std_1
+    .\_build\main.o(i.combina_valor) refers to .\_build\main.o(i.nrf_delay_ms) for nrf_delay_ms
+    .\_build\main.o(i.combina_valor) refers to .\_build\main.o(.data) for .data
+    .\_build\main.o(i.combina_valor) refers to .\_build\nrf_log_frontend.o(log_const_data) for m_nrf_log_app_logs_data_const
     .\_build\main.o(i.conn_params_error_handler) refers to .\_build\app_error_handler_keil.o(.emb_text) for app_error_handler
     .\_build\main.o(i.csc_meas_timeout_handler) refers to .\_build\main.o(i.csc_sim_measurement) for csc_sim_measurement
     .\_build\main.o(i.csc_meas_timeout_handler) refers to .\_build\ble_cscs.o(i.ble_cscs_measurement_send) for ble_cscs_measurement_send
@@ -4014,7 +4018,7 @@ Removing Unused input sections from the image.
     Removing .\_build\main.o(i.amazenar_ACC), (328 bytes).
     Removing .\_build\main.o(i.assert_nrf_callback), (16 bytes).
     Removing .\_build\main.o(i.check_init), (64 bytes).
-    Removing .\_build\main.o(i.combina_valor), (2 bytes).
+    Removing .\_build\main.o(i.combina_valor), (108 bytes).
     Removing .\_build\main.o(i.get_status_carregador), (112 bytes).
     Removing .\_build\main.o(i.hl_lh), (4 bytes).
     Removing .\_build\main.o(i.insert_zero), (112 bytes).
@@ -5217,7 +5221,7 @@ Removing Unused input sections from the image.
     Removing ..\..\external\nrf_oberon\lib\cortex-m4\hard-float\short-wchar\oberon_3.0.1.lib(ocrypto_poly1305_mul.s.obj)(.bss), (0 bytes).
     Removing C:\Keil_v5\ARM\ARMCC\Bin\..\lib\armlib\mf_w.l(dflti.o)(.text), (34 bytes).
 
-1210 unused section(s) (total 66512 bytes) removed from the image.
+1210 unused section(s) (total 66618 bytes) removed from the image.
 
 ==============================================================================
 
